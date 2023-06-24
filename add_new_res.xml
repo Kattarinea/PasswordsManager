@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+
+    >
+
+    <TextView
+        android:id="@+id/Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new service"
+        android:textSize="34sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/URL"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Label"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Service URL"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Login"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/URL"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Login"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Login"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:text="Password"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Notes"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Notes"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Notes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple_700"
+        android:shadowColor="@color/purple_500"
+        android:text="Add"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Notes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple_700"
+        android:shadowColor="@color/purple_500"
+        android:text="Save"
+        android:textColor="@color/white" />
+</RelativeLayout>

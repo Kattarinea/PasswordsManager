@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/importData"
+        android:orderInCategory="1"
+        android:title="Import" />
+    <item
+        android:id="@+id/exportData"
+        android:orderInCategory="2"
+        android:title="Export" />
+    <item
+        android:id="@+id/changePIN"
+        android:orderInCategory="3"
+        android:title="Change PIN" />
+</menu>
